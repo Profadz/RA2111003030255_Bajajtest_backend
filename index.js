@@ -21,9 +21,9 @@ const detectMimeType = (buffer) => {
     return mimeSignatures[fileSignature] || 'unknown';
 };
 app.post('/bfhl', (req, res) => {
-    const userId = 'Mukul_Bhalla_27112002';
-    const email = 'mb9792@srmist.edu.in';
-    const rollNumber = 'RA2111003030252';
+    const userId = 'Aditya_Dev_15092003';
+    const email = 'ad9210@srmist.edu.in';
+    const rollNumber = 'RA2111003030255';
     const data = req.body.data || [];
     const fileB64 = req.body.file_b64 || '';
 
